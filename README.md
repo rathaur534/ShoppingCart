@@ -1,3 +1,3 @@
 # ShoppingCart
 
-  [Live_Link](https://arpit-shoppingcart.netlify.app/);
+  [Live_Link](https://arpit-shoppingcart.netlify.app/)
