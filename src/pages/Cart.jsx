@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 const Cart =()=>{
    const {cart}= useSelector((state)=> state); 
      const [totalAmount,setTotalAmount]=useState(0);
+    //  ffggggg
 
      useEffect(()=>{
          setTotalAmount(cart.reduce(( acc, curr)=> acc+curr.price ,0));
@@ -35,7 +36,7 @@ const Cart =()=>{
                       <div className="text-green-700 font-bold text-[30px] uppercase">Summary </div>
                       <p>
                         <span className="font-bold">Total Items: {cart.length  }</span>
-                        
+
                       </p>
                     </div>
 
