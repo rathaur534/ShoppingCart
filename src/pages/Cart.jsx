@@ -35,6 +35,7 @@ const Cart =()=>{
                       <div className="text-green-700 font-bold text-[30px] uppercase">Summary </div>
                       <p>
                         <span className="font-bold">Total Items: {cart.length  }</span>
+                        
                       </p>
                     </div>
 
