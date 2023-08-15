@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 const Cart =()=>{
    const {cart}= useSelector((state)=> state); 
      const [totalAmount,setTotalAmount]=useState(0);
-    //  ffggggg
+  
 
      useEffect(()=>{
          setTotalAmount(cart.reduce(( acc, curr)=> acc+curr.price ,0));
